@@ -7,8 +7,7 @@ export default class App extends Component{
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to your first app!</Text>
-        <Inputs /> 
+        <Text style={styles.welcome}>List your Favor Places</Text>
         <Inputs /> 
       </View>
     );

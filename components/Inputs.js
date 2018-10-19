@@ -2,6 +2,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, TextInput, Text, TouchableHighlight} from 'react-native';
 
+
 export default class Inputs extends Component{
   state={
     inputArea: '',
@@ -25,8 +26,8 @@ export default class Inputs extends Component{
   }
   render() {
     const placesOutput = this.state.places.map((place,i)=>(
-      <Text key={i}>{place}</Text>
-    ))
+          <Text key={i}>{place}</Text> 
+      ))
     return (  
       <View>  
         <View style ={styles.inputContainer}> 
